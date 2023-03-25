@@ -1,43 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    width: 100vw;
-    background-color: black;
-}
-
-main{
-    height: 100vh;
-    position: relative;
-
-    background-image: url(../imagens/fundo-madeira.jpg), no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-section#iphone{
-    height: 425px;
-    width: 211px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
-    /* Essa parte é referente a centralização da div*/
-    background-image: url(../imagens/frame-iphone-reduzida.png);
-}
-
-#mapa{
-    height:325px;
-    width: 185px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
-    
 }
