@@ -16,9 +16,16 @@ img{
 }
 
 a{
-    color: white;
     display: block;
     background-color: red;
+    color: white;
+    padding: 15px;
     text-align: center;
-    padding: 7px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 76, 76);
 }
