@@ -46,3 +46,12 @@ iframe.conteudo{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+img{
+    border-radius: 250px;
+    width: 70px;
+    height: 70px;
+
+    margin-left: 90%;
+    margin-top: 40px;
+}
