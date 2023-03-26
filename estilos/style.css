@@ -47,11 +47,26 @@ iframe.conteudo{
     transform: translate(-50%, -50%);
 }
 
-img{
-    border-radius: 250px;
-    width: 70px;
-    height: 70px;
+section#redes{
+    text-align: right;
+    
+}
 
-    margin-left: 90%;
-    margin-top: 40px;
+section#redes > a > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: right;
+    box-sizing: border-box;
+    
+}
+
+section#redes > a > img:hover{
+    border: 1px solid rgba(221, 221, 221, 0.726);
+    transform: translate(-3px, -3px);
+    transition: .3s;
+    box-shadow: 20px rgba(0, 0, 0, 0.808);
+
+    
 }
